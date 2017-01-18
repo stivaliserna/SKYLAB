@@ -1,11 +1,12 @@
-// Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript
+// Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 
-function max (num1, num2) {
-  if (num1 > num2) {
-    console.log(num1)
+function isVowel (str) {
+  var vowels = ['a', 'e', 'i', 'o', 'u']
+  if (str.length === 1 && vowels.includes(str)) {
+    return 'Is a vowel'
   } else {
-    console.log(num2)
+    return 'Something is not right'
   }
 }
 
-max(2, 3)
+console.log(isVowel('a'))

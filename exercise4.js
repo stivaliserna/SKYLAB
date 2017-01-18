@@ -1,13 +1,11 @@
-// Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
+// Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript
 
-function maxOfThree (num1, num2, num3) {
-  if (num1 > num2 && num1 > num3) {
-    return num1
-  } else if (num2 > num1 && num2 > num3) {
-    return num2
+function max (num1, num2) {
+  if (num1 > num2) {
+    console.log(num1)
   } else {
-    return num3
+    console.log(num2)
   }
 }
 
-maxOfThree(2, 4, 8)
+max(2, 3)
