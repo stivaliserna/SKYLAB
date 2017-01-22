@@ -1,4 +1,4 @@
-// Writes a function that convert a hexadecimal color, "blue" for example "#0000FF" in its RGB representation
+// Writes a function that convert a hexadecimal color in its RGB representation
 
 function splitColors (color) {
   color = color.slice(1)

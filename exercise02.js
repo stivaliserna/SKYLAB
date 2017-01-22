@@ -1,4 +1,5 @@
-// Write a function that prints in the console the multiplication table of any number passed as parameter
+// Write a function that prints in the console the multiplication
+// table of any number passed as parameter
 
 function mult (num) {
   var result = ''

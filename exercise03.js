@@ -1,4 +1,5 @@
-// Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
+// Define a function maxOfThree() that takes three numbers
+// as arguments and returns the largest of them.
 
 function maxOfThree (num1, num2, num3) {
   if (num1 > num2 && num1 > num3) {
