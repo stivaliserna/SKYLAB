@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Library form</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Customer Info</legend>
+      <label>
+        Name
+        <input autofocus type="text" name="name" placeholder="Enter your name" required=""><br>
+      </label>
+      <br>
+      <label>
+        Telephone
+        <input type="tel" name="Telephone" placeholder="Pattern 1-234-567-8910" pattern="[0-9]-[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+      </label>
+      <br>
+      <label>
+        Email Address
+        <input type="text" name="email" placeholder="Enter your Email Address" required><br>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Books</legend>
+      <select name="day" multiple>
+        <option value="select" selected>Select</option>
+        <option value="eloquent" selected>Eloquent JS</option>
+        <option value="craftsman">The Software Craftsman</option>
+        <option value="dont-know-js">You don't know JS</option>
+        <option value="potter">Harry Potter</option>
+        <option value="remember-me">Remember Me?</option>
+        <option value="amor-diminuto">Amor a lo diminuto</option>
+      </select>
+      <label>
+        Quantity (Maximum 5)
+        <input type="number" min="1" max="5" name="quantity">
+      </label>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
