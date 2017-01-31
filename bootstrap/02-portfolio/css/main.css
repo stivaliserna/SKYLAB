@@ -1,0 +1,103 @@
+body {
+  background-color: #EDEDED;
+  padding-top: 90px;
+  font-family: 'Lato', sans-serif;
+}
+
+header .container,
+section .container {
+  background-color: #FFF;
+}
+
+#img-profile {
+  height: 140px;
+  margin: 0 auto;
+  margin-top: -70px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #474747;
+  text-align: center;
+  display: center;
+}
+
+h2 span {
+  color: #3B5A76;
+}
+
+.divider {
+  width: 100%;
+  border: 0; 
+  height: 1px; 
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h4 {
+  color: #3B5A76;
+  font-size: 18px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.contact-list li {
+  margin-bottom: 15px;
+}
+
+.contact-list li a {
+  color: black;
+}
+
+.contact-list li a i {
+  font-size: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.services-list a {
+  border: none;
+}
+
+.services-list li {
+  margin-bottom: 15px;
+  padding: 15px 10px;
+  border-radius: 3px;
+}
+
+.services-list li.bg-info i {
+  color: #4B84A0;
+}
+
+.services-list li.bg-success i {
+  color: #88B184;
+}
+
+.services-list p {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.services-list i {
+  font-size: 20px;
+}
+
+.experience-card {
+  background-color: #EDEDED;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+section:last-of-type .container {
+  padding-bottom: 50px;
+}
+
+footer {
+  background-color: #3B5A76;
+  min-height: 50px;
+  color: white;
+}
