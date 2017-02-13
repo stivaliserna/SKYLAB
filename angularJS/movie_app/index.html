@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="movieApp">
+  <head>
+    <meta charset="UTF-8">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-resource.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <ul class="list-unstyled">
+      <li>
+        <a href="#!/popular">POPULAR</a>
+      </li>
+      <li>
+        <a href="#!/upcoming">UPCOMING</a>
+      </li>
+      <li>
+        <a href="#!/top-rated">TOP RATED</a>
+      </li>
+      <li>
+        <a href="#!/now-playing">NOW PLAYING</a>
+      </li>
+    </ul>
+
+    <div ng-view></div>
+    
+    <script src="app/app.module.js"></script>
+    <script src="app/services/movie.service.js"></script>
+    <script src="app/now-playing/now-playing.controller.js"></script>
+    <script src="app/popular/popular.controller.js"></script>
+    <script src="app/upcoming/upcoming.controller.js"></script>
+    <script src="app/top-rated/top-rated.controller.js"></script>
+    <script src="app/app.config.js"></script>
+  </body>
+</html>
