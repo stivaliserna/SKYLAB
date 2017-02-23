@@ -1,0 +1,17 @@
+{
+  "name": "express_todo_app",
+  "version": "1.0.0",
+  "description": "Todo list application",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=3001 nodemon main"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+    "pug": "^2.0.0-beta11"
+  }
+}

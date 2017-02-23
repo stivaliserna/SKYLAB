@@ -1,0 +1,86 @@
+.nav li a {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 17px;
+  color: #ABA6A1;
+  width: 120px;
+  text-align: center;
+}
+
+.nav li a:hover {
+  color: #2B2A29;
+}
+
+.home {
+  padding-left: 50px;
+  margin-bottom: 30px;
+}
+
+.home h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #75726F;
+  font-size: 50px;
+}
+
+.home input{
+  width: 400px;
+  display: inline;
+  margin-right: 10px;
+}
+
+.form-control:focus {
+  border-color: #FFF;
+  box-shadow: 0 0 2px 2px #B2ADA8;
+}
+
+.home button {
+  font-family: 'News Cycle', sans-serif;
+  color: #2B2A29;
+  font-size: 16px;
+}
+
+.list ul li span {
+  font-family: 'News Cycle', sans-serif;
+  color: #2B2A29;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.ol ul li span {
+  color: #C7C1BC;
+}
+
+.list button {
+  font-size: 10px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.list form {
+  display: inline;
+  padding-left: 35px;
+}
+
+.completed {
+  padding-left: 50px;
+  margin-bottom: 30px;
+}
+
+.completed h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #75726F;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.completed ul li {
+  font-family: 'News Cycle', sans-serif;
+  color: #2B2A29;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.glyphicon {
+  margin-right: 10px;
+  color: #24A889;
+}

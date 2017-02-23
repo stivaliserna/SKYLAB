@@ -1,0 +1,24 @@
+html
+  head
+    title EXPRESS TODO LIST APP
+    link(rel="stylesheet",
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7",
+          crossorigin="anonymous")
+    link(rel="stylesheet",
+        href="./main.css")
+    link(href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+          rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=News+Cycle"
+          rel="stylesheet")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous")
+  body
+    .container
+      ul.nav.navbar-nav.navbar-left
+        li
+          a(href='/') TASKS
+        li
+          a(href='/completed') COMPLETED
+  block content

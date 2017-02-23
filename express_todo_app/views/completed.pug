@@ -1,0 +1,9 @@
+extends layout.pug
+block content
+  .container.completed
+    h1 Completed
+    ul.list-unstyled
+      each task in list
+        li
+        span.glyphicon.glyphicon-ok(aria-hidden="true")
+        span= task.text

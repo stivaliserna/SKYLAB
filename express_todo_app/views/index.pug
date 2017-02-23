@@ -1,0 +1,17 @@
+extends layout.pug
+block content
+  .container.home
+    h1 Todo List
+    form(action='/', method='POST')
+      input.form-control(type='text', name='task', autofocus, placeholder='Buy groceries, walk the dog, etc...')
+      button.btn(type='submit') Submit
+  .container.list
+    ul.list-unstyled
+      each task, index in list
+        li
+          form(action='/delete/' + task.id, method='POST')
+            button.btn.btn-sm.btn-danger(type='submit') Delete
+          form(action='/mark-done/' + task.id, method='POST')
+            button.btn.btn-sm.btn-success(type='submit') Done
+          span= index + 1 + '.'
+          span= task.text
