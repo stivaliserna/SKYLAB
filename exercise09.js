@@ -2,7 +2,8 @@
 // and return the string "Your full name is " with the name & surname concatenated
 
 function getFullName (name, surname) {
-  return 'Your full name is ' + name + ' ' + surname
+  return `Your full name is ${name} ${surname}`
 }
 
-getFullName('Stivali', 'Serna')
+console.log(getFullName('Stivali', 'Serna'))
+// => Your full name is Stivali Serna

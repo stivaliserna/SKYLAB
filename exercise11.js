@@ -2,11 +2,8 @@
 // return true if the value received is a string
 
 function isString (str) {
-  if (typeof str === 'string') {
-    return true
-  } else {
-    return false
-  }
+  return typeof str === 'string'
 }
 
-isString(5)
+console.log(isString(5))
+// => false

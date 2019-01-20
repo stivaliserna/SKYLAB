@@ -2,11 +2,8 @@
 // return true if the value received is a number
 
 function isNumber (num) {
-  if (typeof num === 'number') {
-    return true
-  } else {
-    return false
-  }
+  return typeof num === 'number'
 }
 
-isNumber(5)
+console.log(isNumber(5))
+// => true

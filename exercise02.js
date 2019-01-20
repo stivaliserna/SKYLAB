@@ -2,8 +2,8 @@
 // table of any number passed as parameter
 
 function mult (num) {
-  var result = ''
-  for (var i = 1; i <= 10; i++) {
+  let result = ''
+  for (let i = 1; i <= 10; i++) {
     result = result + num * i + ' '
   }
   return result

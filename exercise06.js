@@ -2,21 +2,23 @@
 
 function splitColors (color) {
   color = color.slice(1)
-  var red = color.slice(0, 2)
-  var green = color.slice(2, 4)
-  var blue = color.slice(4, 6)
+  const red = color.slice(0, 2)
+  const green = color.slice(2, 4)
+  const blue = color.slice(4, 6)
   return [red, green, blue]
 }
 
 function hexToRGB (hexColor) {
-  var components = splitColors(hexColor)
-  var red = components[0]
-  var green = components[1]
-  var blue = components[2]
-  var convertedRed = Number.parseInt(red, 16)
-  var convertedGreen = Number.parseInt(green, 16)
-  var convertedBlue = Number.parseInt(blue, 16)
+  const components = splitColors(hexColor)
+
+  const colors = components.map(color => Number.parseInt(color, 16))
+
+  const convertedRed = colors[0]
+  const convertedGreen = colors[1]
+  const convertedBlue = colors[2]
+
   return 'rgb(' + convertedRed + ',' + convertedGreen + ',' + convertedBlue + ')'
 }
 
-hexToRGB('#AA23F5')
+console.log(hexToRGB('#AA23F5'))
+// => rgb(170,35,245)
