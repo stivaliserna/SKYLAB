@@ -4,9 +4,10 @@
 function mult (num) {
   var result = ''
   for (var i = 1; i <= 10; i++) {
-    result = num * i + ' '
+    result = result + num * i + ' '
   }
   return result
 }
 
 console.log(mult(5))
+// => 5 10 15 20 25 30 35 40 45 50
